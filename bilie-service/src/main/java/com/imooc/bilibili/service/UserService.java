@@ -15,13 +15,16 @@ public class UserService {
     @Autowired
     private UserDao userDao;
 
-
     public void addUser(User user) {
         String phone = user.getPhone();
 
         if(StringUtils.isNullOrEmpty(phone)){
             throw new ConditionalException("手机号不能为空");
         }
+    }
+
+    public User getUserByPhone(String phone) {
+      return userDao.getUserByPhone(phone);
     }
 
 }
