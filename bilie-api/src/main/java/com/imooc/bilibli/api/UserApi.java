@@ -26,5 +26,6 @@ public class UserApi {
     @PostMapping("/users")
     public JsonResponse<String> addUser(@RequestBody User user) {
         userService.addUser(user);
+        return JsonResponse.success();
     }
 }
