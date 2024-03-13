@@ -61,7 +61,7 @@ public class UserService {
     }
 
     public String login(User user) {
-        String phone = user.getPhone()
+        String phone = user.getPhone();
 
         if (StringUtils.isNullOrEmpty(phone)) {
             throw new ConditionalException("手机号不能为空");
@@ -85,7 +85,7 @@ public class UserService {
             throw new ConditionalException(("密码错误"));
         }
         TokenUtil tokenUtil = new TokenUtil();
-        return  tokenUtil.generateToken(dbUser.getId())
+        return  tokenUtil.generateToken(dbUser.getId());
     }
 
 }
