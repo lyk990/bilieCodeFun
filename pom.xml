@@ -15,6 +15,7 @@
         <module>gulimail-order</module>
         <module>gulimail-product</module>
         <module>gulimail-ware</module>
+        <module>gulimail-common</module>
     </modules>
 
 </project>
