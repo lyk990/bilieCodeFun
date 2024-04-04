@@ -11,6 +11,7 @@
 
     <modules>
         <module>demo</module>
+        <module>moduleTest</module>
     </modules>
 
 </project>
