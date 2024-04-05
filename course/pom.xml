@@ -10,6 +10,7 @@
     <description>course</description>
     <modules>
         <module>eureka</module>
+        <module>system</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
