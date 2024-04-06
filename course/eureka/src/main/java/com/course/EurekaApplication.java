@@ -12,9 +12,6 @@ import org.springframework.core.env.Environment;
 @EnableEurekaServer
 public class EurekaApplication {
 
-    /**
-     * 获取日志对象
-     */
     private static final Logger LOG = LoggerFactory.getLogger(EurekaApplication.class);
 
 //    public static void main(String[] args) {
