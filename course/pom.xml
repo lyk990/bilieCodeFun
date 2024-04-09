@@ -12,6 +12,7 @@
         <module>eureka</module>
         <module>system</module>
         <module>gateway</module>
+        <module>server</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
